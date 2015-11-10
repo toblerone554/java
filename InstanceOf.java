@@ -6,7 +6,7 @@ public class InstanceOf
 		String e="Hola Mundo";
 		int s=1;
 		
-		if (s instanceof int)
+		if (e instanceof String)
 		
 			{
 				System.out.println("Es una cadena de caracteres");
