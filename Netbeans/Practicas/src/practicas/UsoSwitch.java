@@ -15,19 +15,23 @@ public class UsoSwitch
   public static void main(String[]args)
  
   {
-      //int a = 1;
+      int a = 2;
       
-      //System.out.println("Vamos a adivinar un numero del uno al cinco");
+      System.out.println("Vamos a adivinar un numero del uno al cinco");
       
-      Scanner in= new Scanner(System.in);
+      switch (a*1)
+      {
+      case 1:
+          System.out.println("El resultado es 1");
+      break;
+      case 2:
+          System.out.println("El resultado es 2");
+      break;
+          
+      default:
+          System.out.println("Pues algo hay que poner");
+      }
       
-      int damenumero; 
-      
-      System.out.println("Dame un numero");
-      
-      damenumero=in.nextInt();
-      
-      System.out.println("Tu numero es " + damenumero);
   }               
     
 }
