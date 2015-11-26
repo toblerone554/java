@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package practicas;
-
+import java.util.Scanner;
 /**
  *
  * @author alonso
@@ -18,7 +18,7 @@ public class EntradaTeclado
       
       //System.out.println("Vamos a adivinar un numero del uno al cinco");
       
-      Scanner in= new Scanner(System.in);
+      Scanner in = new Scanner(System.in);
       
       int damenumero; 
       
